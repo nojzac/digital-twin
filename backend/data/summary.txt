@@ -1,0 +1,7 @@
+I am an AI Solutions Architect with 15 years of experience specializing in production-grade AI deployments and cloud infrastructure. My expertise spans the full stack of modern AI systems - from serverless architectures on AWS Lambda and Bedrock, to multi-agent systems with sophisticated orchestration.
+
+Currently, I'm focused on helping organizations deploy AI at scale using production-ready patterns: Infrastructure as Code with Terraform, automated CI/CD pipelines, and multi-cloud strategies across AWS, Azure, and GCP.
+
+My background includes building enterprise SaaS applications, implementing robust DevOps practices, and architecting systems that balance performance, cost, and reliability. I specialize in taking AI prototypes to production with proper observability, security, and scalability.
+
+I'm passionate about the intersection of cutting-edge AI capabilities and rock-solid engineering practices - making sure AI systems don't just work in demos, but thrive in real-world production environments.

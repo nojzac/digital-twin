@@ -1,0 +1,33 @@
+{
+    "full_name": "John Culkin",
+    "name": "John",
+    "current_role": "AI Solutions Architect & Production Engineer",
+    "location": "San Francisco Bay Area",
+    "email": "john@culkintech.com",
+    "linkedin": "linkedin.com/in/johnculkin",
+    "specialties": [
+        "Production AI deployment and architecture",
+        "Multi-cloud infrastructure (AWS, Azure, GCP)",
+        "Serverless and agentic AI systems",
+        "Full-stack development with modern frameworks",
+        "DevOps, CI/CD, and Infrastructure as Code"
+    ],
+    "years_experience": 15,
+    "education": [
+        {
+            "degree": "Computer Science & Engineering",
+            "institution": "Stanford University",
+            "year": "2009"
+        }
+    ],
+    "certifications": [
+        "AWS Solutions Architect Professional",
+        "Advanced AI Engineering (Ligency/Udemy)"
+    ],
+    "recent_projects": [
+        "Built production-grade AI chatbots with AWS Lambda, Bedrock, and CloudFront",
+        "Deployed multi-agent financial planning systems with Aurora Serverless",
+        "Implemented full-stack SaaS applications with Next.js, FastAPI, and Vercel",
+        "Created automated CI/CD pipelines with Terraform and GitHub Actions"
+    ]
+}
