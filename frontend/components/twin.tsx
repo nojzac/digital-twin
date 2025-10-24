@@ -15,6 +15,14 @@ export default function Twin() {
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [sessionId, setSessionId] = useState<string>('');
+    // Add this right after the useState declarations:
+    useEffect(() => {
+        // Load session ID from localStorage on mount
+        const savedSessionId = localStorage.getItem('twin_session_id');
+        if (savedSessionId) {
+            setSessionId(savedSessionId);
+        }
+    }, []);
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
     const scrollToBottom = () => {
@@ -57,6 +65,7 @@ export default function Twin() {
 
             if (!sessionId) {
                 setSessionId(data.session_id);
+                localStorage.setItem('twin_session_id', data.session_id);
             }
 
             const assistantMessage: Message = {
